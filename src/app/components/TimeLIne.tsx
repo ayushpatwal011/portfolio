@@ -15,12 +15,12 @@ const timelineData = [
   {
     title: "2023",
     content: (
-        <>
+      <>
         <h2 className='font-bold text-xl'>
-            Complete Senior Secondary Education(12th)
+          Complete Senior Secondary Education(12th)
         </h2>
         <h3 className='font-bold text-xl'>
-            Adarsh Vidhya Niketan, Kotdwar, Pauri Garhwal, UK
+          Adarsh Vidhya Niketan, Kotdwar, Pauri Garhwal, UK
         </h3>
       </>
     ),
@@ -28,12 +28,12 @@ const timelineData = [
   {
     title: "2022",
     content: (
-        <>
+      <>
         <h2 className='font-bold text-xl'>
-        Diploma in Computer Application
+          Diploma in Computer Application
         </h2>
         <h3 className='font-bold text-xl'>
-           Lakshya Acadmey of Computer Application Kotdwar, Pauri Garhwal, UK
+          Lakshya Acadmey of Computer Application Kotdwar, Pauri Garhwal, UK
         </h3>
       </>
     ),
@@ -41,21 +41,21 @@ const timelineData = [
   {
     title: "2021",
     content: (
-        <>
+      <>
         <h2 className='font-bold text-xl'>
-            Complete  Secondary Education(10th)
+          Complete  Secondary Education(10th)
         </h2>
         <h3 className='font-bold text-xl'>
-            Adarsh Vidhya Niketan, Kotdwar, Pauri Garhwal, UK
+          Adarsh Vidhya Niketan, Kotdwar, Pauri Garhwal, UK
         </h3>
       </>
     ),
   },]
-  // A
+// A
 const TimeLIne = () => {
   return (
-    <div  className='w-full h-auto'>
-            <Timeline data={timelineData} />
+    <div className='w-full h-auto'>
+      <Timeline data={timelineData} />
     </div>
   )
 }
