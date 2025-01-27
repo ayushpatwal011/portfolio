@@ -48,7 +48,7 @@ export const TypewriterEffect = ({
               initial={{ opacity: 0, transform: "translateY(20px)" }}
               key={`char-${charIndex}`}
               className={cn(
-                "inline-block text-base sm:text-xl md:text-3xl lg:text-5xl font-bold",
+                "inline-block text-base sm:text-xl md:text-3xl lg:text-5xl font-bold font-sans",
                 word.className
               )}
             >
