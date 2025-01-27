@@ -19,11 +19,11 @@ const AskedQuestion = () => {
       <AccordionItem value="item-2">
         <AccordionTrigger>Required intenship or Job?</AccordionTrigger>
         <AccordionContent>
-          Yes. I want to intenship or Job to start my carrier in Tech Feild
+          Yes. I want  intenship or Job to start my carrier in Tech Feild
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
-        <AccordionTrigger>Futur Planes?</AccordionTrigger>
+        <AccordionTrigger>Future Planes?</AccordionTrigger>
         <AccordionContent>
             Full stack development, AIML, Data Science
         </AccordionContent>

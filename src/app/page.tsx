@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <div
         className=" w-full max-w-screen-2xl mx-auto
-    bg-gradient-to-b from-white to-gray-100"
+    bg-gradient-to-r from-gray-300 to-white"
       >
         <Navbar />
         <Hero />
