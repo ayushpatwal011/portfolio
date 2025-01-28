@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Poppins } from 'next/font/google';
+import { Itim } from 'next/font/google';
 import DynamicCursor from "./components/DynamicCursor";
-const poppins = Poppins({
-  subsets: ['latin'], // Specify the character set
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'], // Font weights to include
+const itim = Itim({
+  subsets: ['latin'], 
+  weight:  '400'
 });
 
 
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={itim.className}>
       <DynamicCursor />
         {children}
       </body>

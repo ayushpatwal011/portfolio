@@ -48,7 +48,7 @@ export const TypewriterEffect = ({
               initial={{ opacity: 0, transform: "translateY(20px)" }}
               key={`char-${charIndex}`}
               className={cn(
-                "inline-block text-base sm:text-xl md:text-3xl lg:text-5xl font-bold font-sans",
+                "inline-block  text-4xl md:text-5xl lg:text-6xl font-bold font-sans",
                 word.className
               )}
             >
@@ -73,7 +73,7 @@ export const TypewriterEffect = ({
           repeatType: "reverse",
         }}
         className={cn(
-          "inline-block rounded-sm w-[4px] h-4 md:h-6 lg:h-10 bg-green-800",
+          "inline-block rounded-sm w-[8px] h-3 md:h-6 lg:h-10 bg-green-800",
           cursorClassName
         )}
       ></motion.span>
