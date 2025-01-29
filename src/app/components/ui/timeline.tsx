@@ -1,10 +1,8 @@
 "use client";
-import {
-  useScroll,
-  useTransform,
-  motion,
-} from "framer-motion";
+import { useScroll, useTransform, motion } from "framer-motion";
+import Image from "next/image";
 import React, { useEffect, useRef, useState } from "react";
+import mainImage from "@/public/main.png";
 
 interface TimelineEntry {
   title: string;
@@ -32,17 +30,33 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
-    <div
-      className="w-full font-sans "
-      ref={containerRef}
-    >
+    <div className="w-full font-sans " ref={containerRef}>
       <div className="max-w-7xl mx-auto py-4 px-4 md:py-10 md:px-8 lg:px-16">
         <h2 className="text-2xl md:text-4xl mb-4 text-emerald-900  max-w-4xl font-semibold">
           Who I am ?
         </h2>
-        <p className="text-gray-700  text-base md:text-xl max-w-3xl">
-          I&apos;am Ayush MERN Stack Developer with a strong foundation in building dynamic, responsive, and user-focused web applications. Currently pursuing a Bachelor&apos;s degree in Computer Applications (BCA), I specialize in technologies like NextJS, JaavaScript, MongoDB, Express.js, React.js, and Node.js.
-        </p>
+        <div className="w-full flex-col  gap-3 justify-center ">
+          <div className="flex justify-center">
+            <div className="w-24 h-24 md:w-40 md:h-40">
+              <Image
+                src={mainImage}
+                alt="img "
+                width={1000}
+                height={100}
+                className="object-cover object-center"
+              />
+            </div>
+          </div>
+          <div className="flex justify-center">
+          <p className=  "text-gray-700  text-normal md:text-2xl max-w-3xl p-4 ">
+            I&apos;am Ayush MERN Stack Developer with a strong foundation in
+            building dynamic, responsive, and user-focused web applications.
+            Currently pursuing a Bachelor&apos;s degree in Computer Applications
+            (BCA), I specialize in technologies like NextJS, JaavaScript,
+            MongoDB, Express.js, React.js, and Node.js.
+          </p>
+          </div>
+        </div>
       </div>
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
