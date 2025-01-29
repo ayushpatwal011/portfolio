@@ -1,0 +1,33 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes floatAnimation {
+    0% { transform: translateY(10px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(10px); }
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+  }
+  
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .floating-icon {
+    border-radius: 50%;
+    animation: floatAnimation 3s infinite ease-in-out alternate;
+  }
+  

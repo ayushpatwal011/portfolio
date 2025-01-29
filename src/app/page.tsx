@@ -1,8 +1,9 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
-import Skills from "./components/Skills";
 import TimeLIne from "./components/TimeLIne";
+import Contect from "./components/Contect";
+import Skills from "./components/Skills";
 
 export default function Home() {
   return (
@@ -14,10 +15,9 @@ export default function Home() {
         <Navbar />
         <Hero />
         <TimeLIne />
-      </div>
-      <div className="bg-gradient-to-r from-gray-200 to bg-slate-300">
+        <Skills/>
         <Projects />
-        <Skills />
+        <Contect />
       </div>
     </div>
   );
