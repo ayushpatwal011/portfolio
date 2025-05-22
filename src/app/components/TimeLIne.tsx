@@ -16,7 +16,7 @@ const timelineData = [
           Pursuing a Bachelors of Computer Applications (BCA)
         </h2>
         <h3 className="md:font-semibold text-xl">
-          Bagwant Global University, Kotdwara, Uttarakhand
+          Bhagwant Global University, Kotdwara, Uttarakhand
         </h3>
         <p>
           {" "}
