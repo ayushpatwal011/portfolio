@@ -2,7 +2,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import TimeLIne from "./components/TimeLIne";
-import Contect from "./components/Contect";
+import Contact from "./components/Contact"
 import Skills from "./components/Skills";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
         <TimeLIne />
         <Skills/>
         <Projects />
-        <Contect />
+        <Contact />
       </div>
     </div>
   );

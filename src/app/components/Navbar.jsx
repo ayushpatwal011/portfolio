@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className=" flex justify-center items-center gap-5 font-semibold text-xl">
         <Link href={"/"}>Home</Link>
         <Link href={"https://github.com/ayushpatwal011"}>GitHub</Link>
-        <Link href={"/contect"}>Contect</Link>
+        <Link href={"/contact"}>Contact</Link>
       </nav>
     </div>
   );

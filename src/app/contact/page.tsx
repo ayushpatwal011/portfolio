@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div className='w-full h-screen flex justify-center items-center bg-black'>
         <div className=' text-white  rounded-2xl p-6 flex-col  '>
-        <h1 className='font-semibold text-xl'>Contect ME:</h1>
+        <h1 className='font-semibold text-xl'>Contact Me:</h1>
         <p className='font-semibold text-xl'>+91 84 3956 9625</p>
 
             <Link href="/">
