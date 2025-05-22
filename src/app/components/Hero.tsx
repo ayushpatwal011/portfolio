@@ -4,8 +4,8 @@ import { TypewriterEffect } from "./ui/typewriter-effect";
 const Hero = () => {
   const words = [
     { text: "I ", className: "text-black" },
-    { text: "build", className: "text-black" },
-    { text: "functional", className: "text-black" },
+    { text: "Build", className: "text-black" },
+    { text: "Functional", className: "text-black" },
     { text: " Applications", className: "text-green-800" },
   ];
   return (
