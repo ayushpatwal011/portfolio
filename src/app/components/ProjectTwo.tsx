@@ -3,10 +3,10 @@
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Image from "next/image";
 import React from "react";
-import img from "@/public/pokemon.png";
+import img from "@/public/vegcart.png";
 import Link from "next/link";
 
-export function ProjectOne({
+export function ProjectTwo({
   name,
   content,
   liveDemo,
