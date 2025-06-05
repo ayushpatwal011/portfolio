@@ -9,9 +9,11 @@ const Projects = () => {
         <h1 className='w-full text-center font-semibold text-4xl pt-4'>Projects</h1>
         <div className='md:flex justify-center items-center gap-20'>
 
-            <ProjectOne name="Ayush Docs(Full Stack)" content="Full Stack Project, Blog Application with AI suggestion, Using MERN I made a functional website" liveDemo="https://ayushdocs-rcmw0a83y-ayushpatwals-projects.vercel.app" githubCode="https://github.com/ayushpatwal011/ayushdocs"/>
+            <ProjectOne name="Ayush Docs(Full Stack)" content="A full-stack blog application featuring AI-powered suggestions and an admin dashboard. Built with the MERN stack, this project delivers a fully functional and responsive blogging platform.
+" liveDemo="https://ayushdocs.vercel.app" githubCode="https://github.com/ayushpatwal011/ayushdocs"/>
          
-            <ProjectTwo name="Vegcart (Full Stack)" content="Full Stack Project, Handling Large Api, Using MERN I made a functional website" liveDemo="https://vegcart-seven.vercel.app/" githubCode="https://github.com/ayushpatwal011/vegcart"/>
+            <ProjectTwo name="Vegcart (Full Stack)" content="A full-stack e-commerce application designed to handle large APIs and includes a powerful admin dashboard. Developed using the MERN stack, it provides a smooth and scalable user experience.
+" liveDemo="https://vegcart-seven.vercel.app" githubCode="https://github.com/ayushpatwal011/vegcart"/>
          
         </div>
     </div>
