@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Urbanist } from 'next/font/google';
-import DynamicCursor from "./components/DynamicCursor";
 const urbanist = Urbanist({
   subsets: ['latin'], 
   weight: ['400', '500', '600', '700'],
@@ -21,7 +20,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={urbanist.className}>
-      <DynamicCursor />
         {children}
       </body>
     </html>
